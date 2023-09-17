@@ -7,8 +7,6 @@ export default async function Home() {
     <div className={styles.description}>
       <p>This page downloads users from an external api</p>
     </div>
-    <div className={styles.description}>
     <DataFetcher />
-    </div>
   </main>
 }
